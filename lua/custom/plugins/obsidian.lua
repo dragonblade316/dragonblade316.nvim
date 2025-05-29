@@ -21,7 +21,7 @@ return {
     workspaces = {
       {
         name = 'notes',
-        path = '~/Documents/notes_vault/',
+        path = '~/Documents/notes/',
       },
     },
 
