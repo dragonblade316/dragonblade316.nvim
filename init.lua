@@ -208,6 +208,12 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- diagnostic settings
+vim.diagnostic.config {
+  virtual_text = true,
+  -- Other diagnostic settings can go here
+}
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
